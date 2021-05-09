@@ -6,6 +6,7 @@ import AuthContext from '../../contexts/auth';
 const SignIn: React.FC = () => {
 
   const { signed, signIn } = useContext(AuthContext);
+  console.log(signed);
 
   function handleSignIn() {
     signIn();

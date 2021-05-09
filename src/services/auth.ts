@@ -1,5 +1,13 @@
+interface Response {
+  token: string;
+  user: {
+    name: string;
+    email: string;
+  };
+}
+
 // Simulação de chamada da API
-export function signIn() {
+export function signIn(): Promise<Response> {
   return new Promise(resolve => {
     setTimeout(() => {
       resolve({
