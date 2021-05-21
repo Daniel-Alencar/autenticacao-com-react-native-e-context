@@ -11,7 +11,7 @@ export function signIn(): Promise<Response> {
   return new Promise(resolve => {
     setTimeout(() => {
       resolve({
-        token: 'sdfjaçdgjçlhfnmdçsfmgdlsgnsdfjnkaflgnlsdglfd',
+        token: 'token2210',
         user: {
           name: 'Daniel',
           email: 'danielalencar746@gmail.com',
